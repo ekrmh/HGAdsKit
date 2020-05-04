@@ -25,14 +25,14 @@ Integrate HMS and GMS before adding the library to your project. Otherwise HGAds
    
 Gradle:
 ```groovy
-implementation 'com.github.ekrmh:hgadskit:1.0'
+implementation 'com.github.ekrmh:hgadskit:1.1'
 ```
 Maven:
 ```xml
 <dependency>
   <groupId>com.github.ekrmh</groupId>
   <artifactId>hgadskit</artifactId>
-  <version>1.0</version>
+  <version>1.1</version>
   <type>pom</type>
 </dependency>
 ```
