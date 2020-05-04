@@ -6,6 +6,7 @@ import android.util.Log
 import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
+import com.ekrmh.hgadskit.ads.AdsCreator
 import com.ekrmh.hgadskit.ads.banner.BannerSize
 import com.ekrmh.hgadskit.ads.interstitial.HGInterstitialAd
 import com.ekrmh.hgadskit.ads.interstitial.InterstitialListener
@@ -21,6 +22,9 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+
+        val type = AdsCreator.getServiceType(this)
 
         showBannerAd()
         showRewardedAd()
